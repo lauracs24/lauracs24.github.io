@@ -1323,15 +1323,18 @@ a:hover {
 		margin: 0;
 	}
 
-	#header nav ul li a {
+	/* 🔥 FIXED ICONS (NO GREY SQUARE) */
+	#header nav ul li a,
+	#header nav ul li a:before {
 		width: 2.8em;
 		height: 2.8em;
 		line-height: 2.8em;
 		font-size: 1.1em;
-		background: transparent;
-		border: 2px solid #fff;
-		color: #fff;
-		box-shadow: 0 0 10px rgba(255,255,255,0.2);
+		background: transparent !important;
+		background-color: transparent !important;
+		border: 2px solid #fff !important;
+		color: #fff !important;
+		box-shadow: 0 0 10px rgba(255,255,255,0.2) !important;
 	}
 
 	#footer {
