@@ -1258,63 +1258,83 @@ a:hover {
 	text-shadow: 0 1px 3px rgba(0,0,0,0.6); /* helps on bright background */
 }
 
-/* Mobile improvements */
+
+/* Strong mobile layout fix */
 @media screen and (max-width: 736px) {
 
+	#main {
+		padding: 2.5em 1.25em 2em 1.25em;
+	}
+
 	#header h1 {
-		font-size: 3em;
+		font-size: 2.8em;
+		line-height: 1.1em;
+		margin-bottom: 0.35em;
 	}
 
 	#header p {
-		font-size: 1em;
+		font-size: 0.95em;
 		line-height: 1.5em;
-		padding: 0 1em;
+		padding: 0 0.75em;
+		margin-bottom: 1em;
 	}
 
 	#contact-form {
-		margin-top: 1.2em;
-		gap: 0.6em;
+		margin-top: 1em;
+		gap: 0.85em;
 	}
 
 	#contact-form input,
 	#contact-form textarea {
-		width: 16em;
-		max-width: 88vw;
-		padding: 0.65em 0.85em;
+		width: 100%;
+		max-width: 100%;
 		font-size: 1em;
+		padding: 0.85em 1em;
 	}
 
 	#contact-form textarea {
-		min-height: 4.5em;
+		min-height: 7em;
 	}
 
 	#contact-form button {
-		width: 12em;
-		max-width: 70vw;
-		padding: 0.65em 1em;
+		width: 100%;
+		max-width: 100%;
+		padding: 0.85em 1em;
+		font-size: 1em;
 	}
 
 	#header nav {
-		margin-top: 1.2em;
+		margin-top: 1em;
+	}
+
+	#header nav ul {
+		display: flex;
+		justify-content: center;
+		gap: 0.75em;
 	}
 
 	#header nav ul li {
-		margin: 0 0.3em;
+		margin: 0;
 	}
 
 	#header nav ul li a {
-		width: 2.5em;
-		height: 2.5em;
-		line-height: 2.5em;
-		font-size: 1.05em;
+		width: 2.8em;
+		height: 2.8em;
+		line-height: 2.8em;
+		font-size: 1.1em;
+		background: rgba(0, 0, 0, 0.12);
 	}
 
 	#footer {
-		padding-bottom: 3em;
+		margin-top: 1.25em;
+		padding-bottom: 2em;
 	}
 
 	#footer .copyright {
-		font-size: 0.85em;
+		font-size: 0.8em;
+		line-height: 1.4em;
 		padding: 0 1em;
+		color: rgba(255, 255, 255, 0.98);
+		text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
 	}
 }
