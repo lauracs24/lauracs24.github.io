@@ -1408,12 +1408,13 @@ a:hover {
 		font-size: 1.35em !important;
 	}
 
+	/* 🔥 FIXED CV sizing */
 	#header nav ul li a.text-icon {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 
 	#header nav ul li a.text-icon .cv-text {
-		font-size: 1.1em;
+		font-size: 1.25em;
 		transform: translateY(-1px);
 	}
 }
