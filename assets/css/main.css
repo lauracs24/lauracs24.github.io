@@ -1408,13 +1408,16 @@ a:hover {
 		font-size: 1.35em !important;
 	}
 
-	/* CV button */
 	#header nav ul li a.text-icon {
 		font-size: 1em;
 	}
 
 	#header nav ul li a.text-icon .cv-text {
-		font-size: 1.25em;
-		transform: translateY(-2px); /* 👈 THIS is the final alignment fix */
+		display: inline-block;
+		font-size: 1.16em;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		line-height: 1;
+		transform: translateY(-1.6px);
 	}
 }
