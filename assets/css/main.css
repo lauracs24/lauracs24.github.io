@@ -1390,3 +1390,46 @@ a:hover {
 		position: static !important;
 	}
 }
+/* Brighter tagline */
+#header p {
+	color: rgba(255, 255, 255, 0.88);
+}
+
+/* CV circle */
+#header nav ul li a.cv-icon {
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	box-shadow: 0 0 10px rgba(255,255,255,0.25);
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.9em;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 3em;
+}
+
+#header nav ul li a.cv-icon:hover {
+	background: #fff;
+	color: #000;
+	box-shadow: 0 0 18px rgba(255,255,255,0.6);
+	transform: translateY(-2px);
+}
+
+/* Keep CV circle clean on mobile */
+@media screen and (max-width: 736px) {
+	#header nav ul li a.cv-icon {
+		width: 2.8em !important;
+		height: 2.8em !important;
+		line-height: 2.8em !important;
+		font-size: 0.85em !important;
+		background: transparent !important;
+		border: 2px solid #fff !important;
+		border-radius: 50% !important;
+		color: #fff !important;
+		box-shadow: 0 0 10px rgba(255,255,255,0.2) !important;
+		display: inline-block !important;
+		text-align: center !important;
+	}
+}
