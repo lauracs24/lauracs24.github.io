@@ -1299,39 +1299,6 @@ a:hover {
 	font-size: 1.6em !important;
 }
 
-/* Normal icon buttons */
-#header nav ul li a.icon {
-	font-size: 1em;
-}
-
-/* CV button */
-#header nav ul li a.text-icon {
-	font-family: inherit;
-	font-size: 1em;
-	font-weight: 700;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
-	line-height: 1;
-}
-
-#header nav ul li a.text-icon:before {
-	content: none !important;
-	display: none !important;
-}
-
-#header nav ul li a.text-icon .cv-text {
-	display: inline-block;
-	position: static;
-	line-height: 1;
-	color: #fff;
-	opacity: 1;
-	visibility: visible;
-	font-size: 1.2em;
-	font-weight: 700;
-	letter-spacing: 0.08em;
-	transform: translateY(-1px);
-}
-
 /* Hide only the accessibility label */
 #header nav ul li a .label {
 	position: absolute;
@@ -1406,18 +1373,5 @@ a:hover {
 
 	#header nav ul li a:before {
 		font-size: 1.35em !important;
-	}
-
-	#header nav ul li a.text-icon {
-		font-size: 1em;
-	}
-
-	#header nav ul li a.text-icon .cv-text {
-		display: inline-block;
-		font-size: 1.16em;
-		font-weight: 700;
-		letter-spacing: 0.06em;
-		line-height: 1;
-		transform: translateY(-1.6px);
 	}
 }
